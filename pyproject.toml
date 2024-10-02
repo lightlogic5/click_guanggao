@@ -1,0 +1,20 @@
+[project]
+name = "testdabao"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "桂圆", email = "1176916155@qq.com"},
+]
+dependencies = [
+    "requests>=2.32.3",
+    "pyinstaller>=6.10.0",
+    "selenium>=4.24.0",
+    "cffi>=1.17.1",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
